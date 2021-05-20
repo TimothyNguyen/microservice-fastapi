@@ -1,0 +1,11 @@
+- How to create a virtualenv in python 3.8 for windows
+py -3.8 -m venv env 
+python -m pip install --user --upgrade pip
+.\env\Scripts\activate
+To close: deactivate
+
+Tutorial: https://dev.to/paurakhsharma/microservice-in-python-using-fastapi-24cc
+
+How to run the app: uvicorn app.main:app --reload
+URL:  http://127.0.0.1:8000/
+Automatic Documentation: http://127.0.0.1:8000/docs
