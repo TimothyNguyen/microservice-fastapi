@@ -9,3 +9,12 @@ Tutorial: https://dev.to/paurakhsharma/microservice-in-python-using-fastapi-24cc
 How to run the app: uvicorn app.main:app --reload
 URL:  http://127.0.0.1:8000/
 Automatic Documentation: http://127.0.0.1:8000/docs
+
+Database:
+\dt (Get tables)
+\l (Get database)
+create database movie_db;
+\c movie_db
+
+
+pip3 install -r requirements.txt
